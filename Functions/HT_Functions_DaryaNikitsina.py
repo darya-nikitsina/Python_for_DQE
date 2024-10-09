@@ -86,7 +86,8 @@ print(dicts_list)
 print(common_dict)
 
 
-# Home Task 2 reorganization
+# Home Task 3 reorganization
+
 # Function to create new sentence from last words of each sentence from a text
 def create_new_sentence(some_text):
     # split the text into sentences for future creation a new sentence
@@ -182,7 +183,7 @@ replaced_text = replace_iz_with_is(updated_text)
 normalized_text = normalize_letter_case(replaced_text)
 whitespace_quantity = find_whitespaces(normalized_text)
 
-print(f'Normalized text is: {normalized_text}')
+print(f'Normalized text is: \n {normalized_text}')
 print(f'Number of whitespace characters is: {whitespace_quantity}')
 
 
