@@ -7,17 +7,25 @@ class Publication:
         self.text = text
         self.publication_date = self.get_publication_date()
 
+    def get_title(self, title_text=''):
+        title = '-' * 20 + title_text
+        return title
+
     def get_publication_date(self):             # method to get date of any type of publication
         publication_date = datetime.date.today()
         return publication_date
 
-    def format_publication(self):               # method to define a standard format for main part of any publication
+    def format_publication(self, title_text=''):               # method to define a standard format for main part of any publication
         return f'{self.text}\nPublished on: {self.publication_date.isoformat()}'
 
     def publish(self):                          # method for publishing to the .txt file
-        with open('NewsFeed.txt', 'a', encoding='utf-8') as news_file:
-            news_file.write(self.format_publication())
-            news_file.write('\n')
+        try:
+            with open('NewsFeed.txt', 'a', encoding='utf-8') as news_file:
+                news_file.write(self.format_publication())
+                news_file.write('\n')
+        except BaseException as exception:
+            print('Something happened. Please check the error:')
+            print(exception)
 
 
 # Initiate a child class for News
@@ -28,7 +36,8 @@ class News(Publication):
 
     def format_publication(self):               # method for customizing the format of a news publication
         parent_format = super().format_publication()
-        return f'News----------------\nCity: {self.city.upper()}\n{parent_format}\n'
+        title = self.get_title('News')
+        return f'{title}\nCity: {self.city.upper()}\n{parent_format}\n'
 
 
 # Initiate a class for Private Advertisement
@@ -51,9 +60,10 @@ class PrivatAd(Publication):
 
     def format_publication(self):               # method to format the current type of publication
         parent_format = super().format_publication()
+        title = self.get_title('Privat Ad')
         expiration = self.expiration_date
         days_left = self.calculate_days_left
-        return f'Privat Ad-----------\n{parent_format}\nExpires on: {expiration}\nDays left: {days_left}\n'
+        return f'{title}\n{parent_format}\nExpires on: {expiration}\nDays left: {days_left}\n'
 
 
 # Initiate a class for Weather Forecast as new entity
@@ -85,11 +95,12 @@ class WeatherForecast(Publication):
 
     def format_publication(self):                # method to format the current type of publication
         parent_format = super().format_publication()
+        title = self.title('Weather Forecast')
         forecast_city = self.city.upper()
         forecast_date = self.forecast_date
         temperature = self.format_temperature()
         weather_advice = self.get_weather_advice()
-        return (f'Weather Forecast----\nCity: {forecast_city}\nForecast for: {forecast_date}\nTemperature: {temperature}\n'
+        return (f'{title}\nCity: {forecast_city}\nForecast for: {forecast_date}\nTemperature: {temperature}\n'
                 f'Advice: {weather_advice}\n{parent_format}\n')
 
 
@@ -106,7 +117,6 @@ def publish_content():
 
         try:
             if choice == '1':
-
                     text = input('Write the news text: ')
                     city = input('Write the city name: ')
                     news = News(text, city)
@@ -117,7 +127,18 @@ def publish_content():
 
             elif choice == '2':
                 text = input('Write the advertisement text: ')
-                expiration_date = input('Add the expiration date in format YYYY-MM-DD: ')
+
+                while True:
+                    expiration_date = input('Add the expiration date in format YYYY-MM-DD: ')
+                    try:
+                        datetime.datetime.strptime(expiration_date, '%Y-%m-%d')
+                        if datetime.date.fromisoformat(expiration_date) >= datetime.date.today():
+                            break
+                        else:
+                            print('Expiration date cannot be earlier than today\'s date.')
+                    except ValueError:
+                        print('Expiration date has been added in inappropriate format.')
+
                 advertisement = PrivatAd(text, expiration_date)
                 advertisement.publish()
                 print('The private advertisement has been added to the file!')
@@ -127,8 +148,25 @@ def publish_content():
             elif choice == '3':
                 text = input('Write the text part of the weather forecast: ')
                 city = input('Write a city name for the weather forecast: ')
-                temperature = int(input('Add the temperature as positive or negative integer: '))
-                forecast_date = input('Write a date for the weather forecast in format YYYY-MM-DD: ')
+
+                while True:
+                    try:
+                        temperature = int(input('Add the temperature as positive or negative integer: '))
+                        break
+                    except ValueError:
+                        print('Temperature should be an integer. Please try again.')
+
+                while True:
+                    forecast_date = input('Write a date for the weather forecast in format YYYY-MM-DD: ')
+                    try:
+                        datetime.datetime.strptime(forecast_date, '%Y-%m-%d')
+                        if datetime.date.fromisoformat(forecast_date) >= datetime.date.today():
+                            break
+                        else:
+                            print('Forecast date cannot be earlier than today\'s date.')
+                    except ValueError:
+                        print('Forecast date has been added in inappropriate format.')
+
                 weather_forecast = WeatherForecast(text, city, temperature, forecast_date)
                 weather_forecast.publish()
                 print('The weather forecast has been added to the file!')
@@ -145,8 +183,9 @@ def publish_content():
                 time.sleep(3)
                 continue
 
-        except:
+        except BaseException as exception:
             print('Your publication has not been published. Be sure the entered data matches the requested data.')
+            print(exception)
             time.sleep(5)
             continue
 
