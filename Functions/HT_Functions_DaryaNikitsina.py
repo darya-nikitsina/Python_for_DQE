@@ -82,8 +82,8 @@ dicts_list = create_list_of_dicts(2, 10, 0, 100)
 common_dict = create_common_dict(dicts_list)
 
 # print final result
-print(dicts_list)
-print(common_dict)
+#print(dicts_list)
+#print(common_dict)
 
 
 # Home Task 3 reorganization
@@ -139,7 +139,7 @@ def normalize_letter_case(text):
     sentences = re.split(r'(?<=[.!?])\s+', text)
 
     # Capitalize each sentence and put it to a normalized_sentences list
-    normalized_sentences = [sentence.capitalize() for sentence in sentences]
+    normalized_sentences = [sentence.strip().capitalize() for sentence in sentences]
 
     # replace sentences in updated_text in mixed case with sentences in capitalized case
     normalized_text = text
@@ -183,8 +183,5 @@ replaced_text = replace_iz_with_is(updated_text)
 normalized_text = normalize_letter_case(replaced_text)
 whitespace_quantity = find_whitespaces(normalized_text)
 
-print(f'Normalized text is: \n {normalized_text}')
-print(f'Number of whitespace characters is: {whitespace_quantity}')
-
-
-
+#print(f'Normalized text is: \n {normalized_text}')
+#print(f'Number of whitespace characters is: {whitespace_quantity}')

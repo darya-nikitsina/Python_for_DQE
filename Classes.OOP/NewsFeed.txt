@@ -10,3 +10,391 @@ Published on: 2024-10-18
 
 
 
+--------------------News
+City:  VILNIUS
+
+ vilnius citizens were not surprised by the seimas elections
+Published on: 2024-10-26
+
+--------------------News
+City: VILNIUS
+no news.
+Published on: 2024-10-26
+
+--------------------Privat Ad
+no privat advertisement
+Published on: 2024-10-26
+Expires on: 2100-12-21
+Days left: 27814
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-26
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-26
+Expires on: 2024-12-31
+Days left: 66
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-26
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-26
+Expires on: 2024-12-31
+Days left: 66
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-25
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-26
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+some news from another file.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+this is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+This is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news fRom another file. And Second parT of the News! Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+This is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2023-12-31
+Days left: -301
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+This is a sample news
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-10-27
+
+--------------------News
+City: SOME CITY
+Some news from another file. And second part of the news! Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Some advertisement from another file.
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Weather from another file.
+Published on: 2024-10-27
+
+--------------------News
+City: NEW YORK
+This is a sample news. And second part of the news. Last part.
+Published on: 2024-10-27
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-10-27
+Expires on: 2024-12-31
+Days left: 65
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-10-27
+
