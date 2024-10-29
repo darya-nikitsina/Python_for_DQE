@@ -398,3 +398,22 @@ Advice: It is warm outside. It is a great time for a walk without outerwear.
 Sunny weather
 Published on: 2024-10-27
 
+--------------------News
+City: NEW YORK
+Another news. And second part.
+Published on: 2024-10-28
+
+--------------------Privat Ad
+Selling something
+Published on: 2024-10-28
+Expires on: 2024-12-31
+Days left: 64
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-10-30
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Some weather
+Published on: 2024-10-28
+

@@ -1,3 +1,0 @@
-News; This is a sample news; New York
-Advertisement; Selling a car; 2024-12-31
-Weather; Sunny weather; Los Angeles; 25; 2024-10-30
