@@ -417,3 +417,85 @@ Advice: It is warm outside. It is a great time for a walk without outerwear.
 Some weather
 Published on: 2024-10-28
 
+--------------------News
+City: NEW YORK
+This is a sample news.
+Published on: 2024-11-03
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-11-03
+Expires on: 2024-12-31
+Days left: 58
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-12-15
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-11-03
+
+--------------------News
+City: NEW YORK
+This is a sample news.
+Published on: 2024-11-03
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-11-03
+Expires on: 2024-12-31
+Days left: 58
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-11-10
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-11-03
+
+--------------------News
+City: MINSK
+Some news to publish.
+Published on: 2024-11-03
+
+--------------------News
+City: MINSK
+Another one news. So Interesting.
+Published on: 2024-11-03
+
+--------------------News
+City: MINSK
+And newt news. Cool news.
+Published on: 2024-11-03
+
+--------------------News
+City: NEW YORK
+This is a sample news.
+Published on: 2024-11-03
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-11-03
+Expires on: 2024-12-31
+Days left: 58
+
+--------------------Weather Forecast
+City: LOS ANGELES
+Forecast for: 2024-11-15
+Temperature: 25°C
+Advice: It is warm outside. It is a great time for a walk without outerwear.
+Sunny weather
+Published on: 2024-11-03
+
+--------------------News
+City: MINSK
+nsflnv;ks;lv
+Published on: 2024-11-03
+
+--------------------News
+City: KRAKOW
+AAAAAaaAAAAaAA JJJJjJjJJjJjJ
+Published on: 2024-11-03
+
