@@ -1,0 +1,23 @@
+[
+    {
+        "type": "weather",
+        "text": "Rain expected later in the day, carry an umbrella.",
+        "city": "Seattle",
+        "temperature": 8,
+        "forecast_date": "2024-11-09"
+    },
+    {
+        "type": "weather",
+        "text": "Rain expected later in the day, carry an umbrella.",
+        "city": "Seattle",
+        "temperature": 8,
+        "forecast_date": "2024-11-09"
+    },
+    {
+        "type": "weather",
+        "text": "Rain expected later in the day, carry an umbrella.",
+        "city": "Seattle",
+        "temperature": 8,
+        "forecast_date": "2024-11-09"
+    }
+]

@@ -2,7 +2,7 @@ import csv
 from collections import Counter
 import re
 
-news_feed = '../Classes_OOP/NewsFeed.txt'
+news_feed = 'NewsFeed.txt'
 
 def open_read(file):
     try:

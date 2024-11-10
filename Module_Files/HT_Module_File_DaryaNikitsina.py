@@ -33,7 +33,7 @@ class FileProcessor:
 
 
     def process_file(self):
-        from Classes_OOP.main import News, PrivatAd, WeatherForecast
+        from main import News, PrivatAd, WeatherForecast
         content = self.read_file()
         if not content:
             return
