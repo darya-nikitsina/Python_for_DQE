@@ -1,0 +1,36 @@
+[
+    {
+        "type": "news",
+        "text": "Local community center opens new library section.",
+        "city": "New York"
+    },
+    {
+        "type": "ad",
+        "text": "Get your car insurance at a discount this month!",
+        "expiration_date": "2024-12-31"
+    },
+    {
+        "type": "weather",
+        "text": "Expect a sunny day with a light breeze.",
+        "city": "Los Angeles",
+        "temperature": 25,
+        "forecast_date": "2024-11-15"
+    },
+    {
+        "type": "news",
+        "text": "New coffee shop in downtown area attracts many visitors.",
+        "city": "San Francisco"
+    },
+    {
+        "type": "ad",
+        "text": "Huge discounts on electronics! Sale ends soon.",
+        "expiration_date": "2024-11-20"
+    },
+    {
+        "type": "weather",
+        "text": "Rain expected later in the day, carry an umbrella.",
+        "city": "Seattle",
+        "temperature": 8,
+        "forecast_date": "2024-11-20"
+    }
+]
