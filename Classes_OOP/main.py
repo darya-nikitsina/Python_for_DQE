@@ -4,6 +4,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../"))
 sys.path.append(project_root)
 
 from Module_Files.HT_Module_File_DaryaNikitsina import FileProcessor
+import CSV_Parsing.HT_CSV_Parsing_DaryaNikitsina as csv_stats
 
 import datetime
 import time
@@ -143,6 +144,7 @@ def publish_content():
                     news = News(text, city)
                     news.publish()
                     print('The news has been added to the file!')
+                    csv_stats.letter_word_statistics()
                     time.sleep(3)
                     continue
 
@@ -161,6 +163,7 @@ def publish_content():
                 advertisement = PrivatAd(text, expiration_date)
                 advertisement.publish()
                 print('The private advertisement has been added to the file!')
+                csv_stats.letter_word_statistics()
                 time.sleep(3)
                 continue
 
@@ -196,6 +199,7 @@ def publish_content():
                 weather_forecast = WeatherForecast(text, city, temperature, forecast_date)
                 weather_forecast.publish()
                 print('The weather forecast has been added to the file!')
+                csv_stats.letter_word_statistics()
                 time.sleep(3)
                 continue
 
@@ -203,6 +207,7 @@ def publish_content():
                 file_path = input('Enter the file path or leave empty for default (InputFile.txt): ')
                 processor = FileProcessor(file_path if file_path else 'InputFile.txt')
                 processor.process_file()
+                csv_stats.letter_word_statistics()
                 continue
 
             elif choice == '5':
