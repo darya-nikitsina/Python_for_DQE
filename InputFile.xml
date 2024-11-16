@@ -1,0 +1,19 @@
+<publications>
+    <publication>
+        <type>news</type>
+        <text>News about something! very important!</text>
+        <city>Minsk</city>
+    </publication>
+    <publication>
+        <type>ad</type>
+        <text>Promo code for a 15% discount on food delivery: PROMOCODE15</text>
+        <expiration_date>2024-12-31</expiration_date>
+    </publication>
+    <publication>
+        <type>weather</type>
+        <text>Cloudy</text>
+        <city>Vilnius</city>
+        <temperature>3</temperature>
+        <forecast_date>2024-11-20</forecast_date>
+    </publication>
+</publications>

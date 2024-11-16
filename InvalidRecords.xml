@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<InvalidRecords>
+  <publication>
+    <type>weather</type>
+    <text>Cloudy</text>
+    <city>Vilnius</city>
+    <temperature>3</temperature>
+    <forecast_date>2024-11-05</forecast_date>
+  </publication>
+</InvalidRecords>

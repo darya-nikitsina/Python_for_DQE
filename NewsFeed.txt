@@ -537,3 +537,60 @@ Advice: It is chilly. Consider wearing a jacket.
 Rain expected later in the day, carry an umbrella.
 Published on: 2024-11-10
 
+--------------------News
+City: MINSK
+News about something! Very important!
+Published on: 2024-11-12
+
+--------------------Privat Ad
+Promo code for a 15% discount on food delivery: promocode15
+Published on: 2024-11-12
+Expires on: 2024-12-31
+Days left: 49
+
+--------------------Weather Forecast
+City: VILNIUS
+Forecast for: 2024-11-15
+Temperature: 3°C
+Advice: It is chilly. Consider wearing a jacket.
+Cloudy
+Published on: 2024-11-12
+
+--------------------News
+City: MINSK
+News about something! Very important!
+Published on: 2024-11-16
+
+--------------------Privat Ad
+Promo code for a 15% discount on food delivery: promocode15
+Published on: 2024-11-16
+Expires on: 2024-12-31
+Days left: 45
+
+--------------------Weather Forecast
+City: VILNIUS
+Forecast for: 2024-11-20
+Temperature: 3°C
+Advice: It is chilly. Consider wearing a jacket.
+Cloudy
+Published on: 2024-11-16
+
+--------------------News
+City: MINSK
+News about something! Very important!
+Published on: 2024-11-16
+
+--------------------Privat Ad
+Promo code for a 15% discount on food delivery: promocode15
+Published on: 2024-11-16
+Expires on: 2024-12-31
+Days left: 45
+
+--------------------Weather Forecast
+City: VILNIUS
+Forecast for: 2024-11-17
+Temperature: 3°C
+Advice: It is chilly. Consider wearing a jacket.
+Cloudy
+Published on: 2024-11-16
+
