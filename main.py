@@ -1,6 +1,7 @@
 from Module_Files.HT_Module_File_DaryaNikitsina import FileProcessor
 import CSV_Parsing.HT_CSV_Parsing_DaryaNikitsina as csv_stats
 import JSON_Module.HT_JSONModule_DaryaNikitsina as processor_json
+import XML_Module.HT_XMLModule_DaryaNikitsina as processor_xml
 
 import datetime
 import time
@@ -130,9 +131,10 @@ def publish_content():
         print('3. Weather Forecast')
         print('4. Process .txt file')
         print('5. Process .json file')
-        print('6. Cancel current publication')
+        print('6. Process .xml file')
+        print('7. Cancel current publication')
 
-        choice = input('Enter the relevant number from 1 to 6: ')
+        choice = input('Enter the relevant number from 1 to 7: ')
 
         try:
             if choice == '1':
@@ -215,6 +217,13 @@ def publish_content():
                 continue
 
             elif choice == '6':
+                file_path = input('Enter the file path or leave empty for default (InputFile.xml): ')
+                xml_processor = processor_xml.FileProcessorXML(file_path if file_path else 'InputFile.xml')
+                xml_processor.process_xml_file()
+                csv_stats.letter_word_statistics()
+                continue
+
+            elif choice == '7':
                 print('Publication has been canceled.')
                 time.sleep(3)
                 break
