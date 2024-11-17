@@ -2,6 +2,7 @@ from Module_Files.HT_Module_File_DaryaNikitsina import FileProcessor
 import CSV_Parsing.HT_CSV_Parsing_DaryaNikitsina as csv_stats
 import JSON_Module.HT_JSONModule_DaryaNikitsina as processor_json
 import XML_Module.HT_XMLModule_DaryaNikitsina as processor_xml
+import Database_API.HT_DatabaseAPI_DaryaNikitsina as database_processor
 
 import datetime
 import time
@@ -36,11 +37,34 @@ class Publication:
     def format_publication(self, text=''):      # method to define a standard format for main part of any publication
         return f'{self.text}\nPublished on: {self.publication_date.isoformat()}'
 
-    def publish(self):                          # method for publishing to the .txt file
+    def get_db_data(self):
+        return {
+            "text": self.text,
+            "publication_date": self.publication_date.isoformat(),
+        }
+
+    def publish(self):     # method for publishing to the .txt file and adding data to database
+        db_processor = database_processor.DatabaseProcessor()
+
         try:
-            with open('NewsFeed.txt', 'a', encoding='utf-8') as news_file:
-                news_file.write(self.format_publication())
-                news_file.write('\n')
+            # Step 1: Check duplicates and add to the database if no the same row in the database
+            table_name = self.__class__.__name__  # use class name as table name
+            db_data = self.get_db_data()  # get data for the database
+
+            record_added = db_processor.add_record(table_name, **db_data)
+            db_processor.close_connection()
+
+            # Step 2: Write to a NewsFeed.txt only if the row has been added to the database
+            if record_added is False:
+                print('Can not be added to the NewsFeed.txt since the NewsFeedDatabase.db'
+                      'already contains this record.')
+            else:
+                with open('NewsFeed.txt', 'a', encoding='utf-8') as news_file:
+                    news_file.write(self.format_publication())
+                    news_file.write('\n')
+
+                print('Publication has been successfully published to the NewsFeed.txt')
+
         except BaseException as exception:
             print('Something happened. Please check the error:')
             print(exception)
@@ -57,6 +81,13 @@ class News(Publication):
         title = self.get_title('News')
         return f'{title}\nCity: {self.city.upper()}\n{parent_format}\n'
 
+    def get_db_data(self):
+        db_data = super().get_db_data()
+        db_data.update({
+            "city": self.city,
+        })
+        return db_data
+
 
 # Initiate a class for Private Advertisement
 class PrivatAd(Publication):
@@ -65,7 +96,7 @@ class PrivatAd(Publication):
         self.expiration_date = expiration_date
         self.calculate_days_left = self.calculate_days_left()
 
-    def __string_to_date(self):                 # privat method to convert a string value (expiration_date) to a date
+    def __string_to_date(self):                 # private method to convert a string value (expiration_date) to a date
         string = self.expiration_date
         date = datetime.datetime.strptime(string, '%Y-%m-%d').date()
         return date
@@ -82,6 +113,14 @@ class PrivatAd(Publication):
         expiration = self.expiration_date
         days_left = self.calculate_days_left
         return f'{title}\n{parent_format}\nExpires on: {expiration}\nDays left: {days_left}\n'
+
+    def get_db_data(self):
+        db_data = super().get_db_data()
+        db_data.update({
+            "expiration_date": self.expiration_date,
+            "days_left": self.calculate_days_left,
+        })
+        return db_data
 
 
 # Initiate a class for Weather Forecast as new entity
@@ -120,6 +159,15 @@ class WeatherForecast(Publication):
         weather_advice = self.get_weather_advice()
         return (f'{title}\nCity: {forecast_city}\nForecast for: {forecast_date}\nTemperature: {temperature}\n'
                 f'Advice: {weather_advice}\n{parent_format}\n')
+
+    def get_db_data(self):
+        db_data = super().get_db_data()
+        db_data.update({
+            "city": self.city,
+            "temperature": self.temperature,
+            "forecast_date": self.forecast_date,
+        })
+        return db_data
 
 
 # Function to run the program from console

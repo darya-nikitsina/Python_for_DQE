@@ -114,7 +114,7 @@ class FileProcessorXML:
         else:
             for publication in to_be_published:
                 publication.publish()
-            print("File has been successfully processed and published.")
+            print("File has been successfully processed.")
             self.remove_file()
 
     def remove_file(self):
