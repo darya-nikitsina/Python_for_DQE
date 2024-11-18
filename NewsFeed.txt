@@ -594,3 +594,97 @@ Advice: It is chilly. Consider wearing a jacket.
 Cloudy
 Published on: 2024-11-16
 
+--------------------News
+City: VILNIUS
+Some news
+Published on: 2024-11-17
+
+--------------------News
+City: VILNIUS
+Some text
+Published on: 2024-11-17
+
+--------------------News
+City: VILNIUS
+Another text
+Published on: 2024-11-17
+
+--------------------News
+City: MINSK
+News! Very important!
+Published on: 2024-11-17
+
+--------------------Privat Ad
+Promo code for a 3% discount on food delivery: promocode3
+Published on: 2024-11-17
+Expires on: 2024-12-31
+Days left: 44
+
+--------------------Weather Forecast
+City: VILNIUS
+Forecast for: 2024-11-20
+Temperature: 1°C
+Advice: It is freezing outside. Potential ice. Be careful on the roads!
+Cloudy
+Published on: 2024-11-17
+
+--------------------News
+City: MINSK
+News about something! Very important!
+Published on: 2024-11-17
+
+--------------------Privat Ad
+Promo code for a 15% discount on food delivery: promocode15
+Published on: 2024-11-17
+Expires on: 2024-12-31
+Days left: 44
+
+--------------------Weather Forecast
+City: VILNIUS
+Forecast for: 2024-11-20
+Temperature: 3°C
+Advice: It is chilly. Consider wearing a jacket.
+Cloudy
+Published on: 2024-11-17
+
+--------------------News
+City: NEW YORK
+This is a sample news. Interesting!
+Published on: 2024-11-17
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-11-17
+Expires on: 2024-12-31
+Days left: 44
+
+--------------------Weather Forecast
+City: VILNIUS
+Forecast for: 2024-11-17
+Temperature: 1°C
+Advice: It is freezing outside. Potential ice. Be careful on the roads!
+Cloudy
+Published on: 2024-11-17
+
+--------------------News
+City: NEW YORK
+This is a sample news.
+Published on: 2024-11-17
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-11-17
+Expires on: 2024-12-31
+Days left: 44
+
+--------------------News
+City: NEW YORK
+This is a sample news.
+Published on: 2024-11-17
+
+--------------------Privat Ad
+Selling a car
+Published on: 2024-11-17
+Expires on: 2024-12-31
+Days left: 44
+
