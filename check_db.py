@@ -11,4 +11,5 @@ cursor.execute('''
 
 result = cursor.fetchall()
 
-print(result)
+a = type(result)
+print(a)
